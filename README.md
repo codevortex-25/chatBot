@@ -33,25 +33,6 @@ You:
 
 Start chatting!
 
-🧪 Example Code
-from google import genai
-
-client = genai.Client(api_key="YOUR_API_KEY")
-
-chat = client.chats.create(model="gemini-2.5-flash")
-
-print("Simple Gemini Chatbot! Type 'exit' to quit.\n")
-
-while True:
-    user_msg = input("You: ")
-
-    if user_msg.lower() == "exit":
-        print("Goodbye!")
-        break
-
-    response = chat.send_message(user_msg)
-    print("Bot:", response.text)
-
 📁 Project Structure
 simple-gemini-chatbot/
 │── simple_chatbot.py
