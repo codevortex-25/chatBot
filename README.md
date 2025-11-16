@@ -1,5 +1,5 @@
 # chatBot
-2. Install dependencies
+Install dependencies
 pip install -U google-genai
 
 🔑 Setup API Key
